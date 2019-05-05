@@ -1,0 +1,74 @@
+body
+{
+	background: url(ass.jpg) no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+height: 50vw;;
+}
+#qw
+{
+	float: right;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	border-color: red;
+	opacity: 0.9;
+	text-align: center;
+	vertical-align: middle;
+}
+#b:hover
+{
+	cursor: pointer;
+}
+.maincontainer
+{   
+	position: relative;
+	width: 250px;
+	height: 320px;
+	
+}
+.thecard
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 0.5s ease;
+	}
+.thecard:hover
+{
+	transform: rotateY(180deg);
+}
+.thefront
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background:#ffc728;
+	color: #333;
+}
+.theback
+{ 
+    position: absolute;
+ 	width: 100%;
+	height: 100%;
+	backface-visibility: hidden;
+	background:#fafafa;
+	color: #333;
+	transform: rotateY(180deg);
+}	
+ 
+
+
+
+
+
+
+
+
+}
